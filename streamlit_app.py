@@ -6,7 +6,7 @@ import os
 def main():
     st.set_page_config(page_title="Influencer Search Tool", layout="wide")
     
-    st.title("Instagram Influencer Search Tool")
+    st.title("DCS-Instagram Influencer Search Tool")
     st.write("Find relevant influencers for your brand campaigns")
     
     # Load configuration
