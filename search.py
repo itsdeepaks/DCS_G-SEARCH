@@ -368,7 +368,7 @@ def main():
         
         # Format the search query
         niches = ' OR '.join(f'{n.strip()}' for n in niche.split(','))
-        search_query = f'{niches} {location} "@gmail.com" site:instagram.com'
+        search_query = f'{niches}+{location}+"@gmail.com"+site:instagram.com'
         
         logger.info(f"Constructed search query: {search_query}")
         
